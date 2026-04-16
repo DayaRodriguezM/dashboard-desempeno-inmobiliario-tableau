@@ -47,7 +47,11 @@ Dado que el dataset no incluía información de costos, no se construyó una mé
 ## Criterios de segmentación
 La variable **Nivel de Venta** fue construida para clasificar las operaciones en **Bajo, Medio y Alto** según el valor de `Precio Venta`. Los rangos se definieron con base en la distribución del dataset, utilizando percentiles como referencia para establecer puntos de corte representativos y luego ajustándolos a valores redondeados para facilitar su interpretación en el dashboard.
 
-## Dashboards construidos
+## Dashboard interactivo
+
+Puedes explorar la versión interactiva del dashboard en Tableau Public aquí: https://public.tableau.com/app/profile/dayana.rodriguez3078/viz/Poyecto10_Dayana_Rodriguez/Overview
+> Nota: Si las vistas previas no se visualizan correctamente en GitHub, puedes acceder directamente al dashboard interactivo desde el enlace anterior.
+
 El proyecto fue estructurado en tres vistas principales:
 
 ### 1. Overview Ejecutivo
@@ -56,7 +60,7 @@ Resume el desempeño general del negocio a través de KPIs, evolución mensual d
 ### 2. Análisis Comercial
 Profundiza en la composición del negocio mediante segmentación por tipo de propiedad, canal de venta, segmento comprador, estacionalidad y nivel de venta.
 
-### 3. Análisis de Recompra
+### 3. Análisis de Cohorte
 Evalúa la recurrencia de clientes mediante una matriz de cohortes, permitiendo identificar el comportamiento de recompra posterior a la primera adquisición.
 
 ## Principales insights
